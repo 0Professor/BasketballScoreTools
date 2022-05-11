@@ -30,17 +30,17 @@ Android Studio2021.1.1 ,win11系统，jdk1.8
 
 ### 三个主页面：
 
-<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112005963.png" alt="image-20220511200559821" width="100px" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112007408.png" alt="image-20220511200703296" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112225152.png" alt="image-20220511200737083" style="zoom:25%;" />
+<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112005963.png" alt="image-20220511200559821" width="200px" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112007408.png" alt="image-20220511200703296" width="200px" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112225152.png" alt="image-20220511200737083" width="200px" style="zoom:25%;" />
 
 ### 主要的计分页面：
 
 <img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112224993.png" alt="image-20220511200753472" style="zoom:33%;" />
 
 ### 登录注册三个页面：
-
-<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112008284.png" alt="image-20220511200819146" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112224096.png" alt="image-20220511200829077" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112224058.png" alt="image-20220511201053496" style="zoom:25%;" />
+<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112008284.png" alt="image-20220511200819146" width="200px" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112224096.png" alt="image-20220511200829077" width="200px" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112224058.png" width="200px" alt="image-20220511201053496" style="zoom:25%;" />
 
 Bug:
+
 
 部分地方有点小bug，但是影响不大，界面没有做适配，因为有些写死了。要适配自己改下布局或者用适配方案等等。
 
