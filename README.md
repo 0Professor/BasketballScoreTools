@@ -30,15 +30,15 @@ Android Studio2021.1.1 ,win11系统，jdk1.8
 
 ### 三个主页面：
 
-<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112005963.png" alt="image-20220511200559821" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112007408.png" alt="image-20220511200703296" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112007203.png" alt="image-20220511200737083" style="zoom:25%;" />
+<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112005963.png" alt="image-20220511200559821" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112007408.png" alt="image-20220511200703296" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112225152.png" alt="image-20220511200737083" style="zoom:25%;" />
 
 ### 主要的计分页面：
 
-<img src="../AppData/Roaming/Typora/typora-user-images/image-20220511200753472.png" alt="image-20220511200753472" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112224993.png" alt="image-20220511200753472" style="zoom:33%;" />
 
 ### 登录注册三个页面：
 
-<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112008284.png" alt="image-20220511200819146" style="zoom:25%;" /><img src="../AppData/Roaming/Typora/typora-user-images/image-20220511200829077.png" alt="image-20220511200829077" style="zoom:25%;" /><img src="../AppData/Roaming/Typora/typora-user-images/image-20220511201053496.png" alt="image-20220511201053496" style="zoom:25%;" />
+<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112008284.png" alt="image-20220511200819146" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112224096.png" alt="image-20220511200829077" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112224058.png" alt="image-20220511201053496" style="zoom:25%;" />
 
 Bug:
 
