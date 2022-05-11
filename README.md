@@ -30,7 +30,7 @@ Android Studio2021.1.1 ,win11系统，jdk1.8
 
 ### 三个主页面：
 
-<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112005963.png" alt="image-20220511200559821" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112007408.png" alt="image-20220511200703296" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112225152.png" alt="image-20220511200737083" style="zoom:25%;" />
+<img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112005963.png" alt="image-20220511200559821" width="100px" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112007408.png" alt="image-20220511200703296" style="zoom:25%;" /><img src="https://cdn.jsdelivr.net/gh/0Professor/PicGoTest/images/202205112225152.png" alt="image-20220511200737083" style="zoom:25%;" />
 
 ### 主要的计分页面：
 
