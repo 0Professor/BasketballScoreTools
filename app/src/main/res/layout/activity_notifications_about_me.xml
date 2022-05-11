@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ui.notifications.Notifications_AboutMe">
+    <ImageView
+        android:id="@+id/Image_v_about"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+        <TextView
+            android:id="@+id/Tv_About"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="篮球计分器"
+            android:layout_below="@id/Image_v_about"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#272727"
+            android:layout_marginTop="20dp"
+            ></TextView>
+    <TextView
+        android:id="@+id/Tv_Verson"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Version 2.3.1"
+        android:layout_below="@id/Tv_About"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#272727"
+        android:layout_marginTop="6dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/Tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@id/Tv_Verson"
+        android:layout_marginTop="50dp"
+        android:text="        首先感谢您对本软件的支持与使用！感谢您对篮球的热爱，正如我们会一直陪伴你一样。"
+        android:textSize="18dp"
+        android:textColor="#272727"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1.25"
+        ></TextView>
+    <TextView
+        android:id="@+id/Tv_text_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Tv_text"
+        android:layout_marginTop="10dp"
+        android:text="
+      本软件仅适用于篮球计分，此版本适用于Android 4.0及以上固件，如在其他品牌或型号的设备上使用本软件，对于出现的任何问题，本公司不承担任何责任。本软件的下载，安装完成免费。
+本软件仅供学习交流所使用，请勿用于任何商业用途，如作他用所造成的相关损失和法律责任一概与本人无关。
+若盗卖此软件，本公司将追究法律责任。 "
+        android:textSize="18dp"
+        android:textColor="#272727"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingMultiplier="1.25"
+        ></TextView>
+</RelativeLayout>

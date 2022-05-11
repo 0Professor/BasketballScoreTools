@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleCount">
+        <!--进度起始色-->
+        <attr name="start_color" format="color"></attr>
+        <!--进度结束色-->
+        <attr name="end_color" format="color"></attr>
+        <!--进度的宽度-->
+        <attr name="progress_rate_width" format="dimension"></attr>
+        <!--文字颜色-->
+        <attr name="stepTextColor" format="color"></attr>
+        <!--文字大小-->
+        <attr name="stepTextSize" format="dimension"></attr>
+        
+    </declare-styleable>
+</resources>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".ui.home.Home_StartScoretool">
+    <RelativeLayout
+        android:id="@+id/relative_layout_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <!--——————————————————————————左边按钮——————————————————————-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Start_left_Bt_1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/start_radius"
+                android:hapticFeedbackEnabled="true"
+                android:text="+ 1"
+                android:textSize="17dp"></Button>
+
+            <Button
+                android:id="@+id/Start_left_Bt_2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/Start_left_Bt_1"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/start_radius"
+                android:text="+ 2"
+                android:textSize="17dp"></Button>
+
+            <Button
+                android:id="@+id/Start_left_Bt_3"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/Start_left_Bt_2"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/start_radius"
+                android:text="+ 3"
+                android:textSize="17dp"></Button>
+
+            <Button
+                android:id="@+id/Start_left_Bt_4"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/Start_left_Bt_3"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/start_radius"
+                android:text="– 1"
+                android:textColor="#FF0000"
+                android:textSize="17dp"></Button>
+
+        </LinearLayout>
+        <!--————————————————————————中间内容————————————————————————-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/Start_left_Et1"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="请输入队名"
+                    android:inputType="text"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="#0080FF"
+                    android:textColorHint="#9F9FA0"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:id="@+id/Start_Tv_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="00"
+                    android:textColor="#0080FF"
+                    android:textSize="190dp"></TextView>
+            </RelativeLayout>
+            <!--————————————————————————————————————————————————————-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/Start_Bt_VS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="VS"
+                    android:textColor="#272727"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Start_Image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Start_Bt_VS"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/number"></ImageView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/Start_left_Et2"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="请输入队名"
+                    android:inputType="text"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="#FF0000"
+                    android:textColorHint="#9F9FA0"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:id="@+id/Start_Tv_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="00"
+                    android:textColor="#FF0000"
+                    android:textSize="190dp"></TextView>
+            </RelativeLayout>
+        </LinearLayout>
+        <!--———————————————————————右边按钮—————————————————————————-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Start_right_Bt_1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/start_radius"
+                android:text="+ 1"
+                android:textSize="17dp"></Button>
+
+            <Button
+                android:id="@+id/Start_right_Bt_2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/Start_right_Bt_1"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/start_radius"
+                android:text="+ 2"
+                android:textSize="17dp"></Button>
+
+            <Button
+                android:id="@+id/Start_right_Bt_3"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/Start_right_Bt_2"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/start_radius"
+                android:text="+ 3"
+                android:textSize="17dp"></Button>
+
+            <Button
+                android:id="@+id/Start_right_Bt_4"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/Start_right_Bt_3"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/start_radius"
+                android:text="– 1"
+                android:textColor="#FF00"
+                android:textSize="17dp"></Button>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Start_left_Save_5"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/start_radius"
+            android:text="截图保存"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/center_Reset_score"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_centerInParent="true"
+            android:background="@drawable/start_radius"
+            android:text="重置分数"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/Start_Right_SaveScore"
+            android:layout_weight="1"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/start_radius"
+            android:text="保存战绩"
+            android:textSize="17dp" />
+    </RelativeLayout>
+</RelativeLayout>

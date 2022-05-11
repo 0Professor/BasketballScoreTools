@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tx_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="文本"
+        android:textColor="#272727"
+        android:textSize="18dp"
+        android:gravity="center"
+        >
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#272727"
+        ></View>
+</LinearLayout>

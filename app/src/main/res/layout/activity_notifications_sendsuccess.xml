@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.notifications.Notifications_SendSuccess">
+    <ImageView
+        android:id="@+id/Image_v"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/sendsuccess"
+        android:layout_gravity="center"
+        ></ImageView>
+    <TextView
+        android:id="@+id/Tv_success"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="提交成功"
+        android:textSize="24dp"
+        android:textColor="#272727"
+        android:gravity="center"
+        ></TextView>
+    <Button
+        android:id="@+id/Bt_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="返回"
+        android:textSize="20dp"
+        android:background="@drawable/ok_radius"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        ></Button>
+</LinearLayout>
